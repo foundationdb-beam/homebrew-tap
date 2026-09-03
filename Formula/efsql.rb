@@ -3,28 +3,28 @@
 class Efsql < Formula
   desc "SQL frontend and data explorer for FoundationDB"
   homepage "https://github.com/foundationdb-beam/efsql"
-  version "0.1.3"
+  version "0.1.4"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.3/efsql-0.1.3-macos-arm64.tar.gz"
-      sha256 "50db6452a22384b774e637b7c42ec9541c8e9da31b9f62b280be0799557164e9"
+      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.4/efsql-0.1.4-macos-arm64.tar.gz"
+      sha256 "5c68cf282bed3898b6170d25a1fee91baae526a35a5b9f7e7d786a8ac72b264f"
     end
     on_intel do
-      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.3/efsql-0.1.3-macos-x86_64.tar.gz"
-      sha256 "9d2f35a5f82d9a9d707c3b0231c0147d9c88ca5ebc1c10d6e60f3cf32f6287ce"
+      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.4/efsql-0.1.4-macos-x86_64.tar.gz"
+      sha256 "c69843c6cf73391eac5297e0ff07e044a27d61c2ba0af4f1956c84395ecf80ca"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.3/efsql-0.1.3-linux-aarch64.tar.gz"
-      sha256 "51a6b51cd955a26beb2f946687441c08cf5f6c38e302858c9a925523ac9c7396"
+      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.4/efsql-0.1.4-linux-aarch64.tar.gz"
+      sha256 "6e5c70fbac5d9b98d1ab477bc8053b622f08e5f768bab2031cadfd20edb558aa"
     end
     on_intel do
-      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.3/efsql-0.1.3-linux-x86_64.tar.gz"
-      sha256 "64af197c7a8e689915df9dd2376b28cf9a758f65d8172697d38c72f1d8f419f2"
+      url "https://github.com/foundationdb-beam/efsql/releases/download/v0.1.4/efsql-0.1.4-linux-x86_64.tar.gz"
+      sha256 "1129b4bc4fcda94e7a0da74d51a319a07d2ff3e8bad3a9c950d3b8fc2acd6570"
     end
   end
 
